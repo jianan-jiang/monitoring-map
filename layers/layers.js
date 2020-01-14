@@ -8,7 +8,7 @@ var wms_layers = [];
             
             source: new ol.source.XYZ({
     attributions: '<a href=""></a>',
-                url: 'http://a.tile.openstreetmap.org/{z}/{x}/{y}.png'
+                url: 'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });var format_MonitoringMPE_1 = new ol.format.GeoJSON();
 var features_MonitoringMPE_1 = format_MonitoringMPE_1.readFeatures(json_MonitoringMPE_1, 
